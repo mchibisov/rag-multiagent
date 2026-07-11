@@ -1,4 +1,12 @@
-.env
 .venv/
+.env
 __pycache__/
+*.pyc
 .DS_Store
+
+data/document_2.txt
+src/test_documents.py
+src/test_embeddings.py
+src/test_rag.py
+src/test_retrieval.py
+test_mistral.py
