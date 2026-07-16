@@ -1,9 +1,12 @@
 .venv/
 .env
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
 .DS_Store
 
+# Local learning scripts kept outside the public repository
 data/document_2.txt
 src/test_documents.py
 src/test_embeddings.py
